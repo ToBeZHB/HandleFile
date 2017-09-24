@@ -5,6 +5,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+	//branch test
     ui->setupUi(this);
     setWindowTitle("文件批处理");
     ui->lineEdit->setReadOnly(true);
